@@ -1,8 +1,8 @@
 # create resource group 
 resource "azurerm_resource_group" "rg" {
-    location = "Sweden Central"
-    name = "${random_pet.prefix.id}-rg"
-  }
+  location = var.resource_group_location
+  name     = "${random_pet.prefix.id}-rg"
+}
 
 
 # Virtual Network
@@ -34,6 +34,6 @@ resource "azurerm_subnet" "my_terraform_subnet_2" {
 
 # generate  id's for random pet prefix
 resource "random_pet" "prefix" {
-    prefix = "vj"
-    length =1
-  }
+  prefix = var.resource_group_name_prefix
+  length = 1
+}
