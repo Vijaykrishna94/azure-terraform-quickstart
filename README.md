@@ -1,7 +1,10 @@
 # azure-terraform
+
 **The Demo Creates a Virtual Network to Spin VM and Bastion to Access the VM's through a public IP**
 
+
 The Infra Diagram
+
 ![image](https://github.com/user-attachments/assets/ce422ace-ba3b-49a8-aac0-d60e1b4601ff)
 
 
@@ -25,6 +28,7 @@ Creating Virtual Network with 2 subnets one for Bastion and the other for VM's
 ![image](https://github.com/user-attachments/assets/1da62014-b412-45c5-b537-e5ec757aa07c)
 
 ## vm.tf
+
 ### Setting up VM's....
 
 Configuring Availablity Sets  for fault tolerance and updates
@@ -40,6 +44,7 @@ Configuring OS
 
 
 ## netwroking.tf
+
 Configuring Network Interface cards with Dynamic IP - To connect to VM's the Virtual network
 
 ![image](https://github.com/user-attachments/assets/5698f934-f8f5-4a02-962d-752c5c64aa49)
@@ -52,6 +57,7 @@ We Setup Bastion with Static IP To interact with the VM's through SSH
 
 
 ### Topology
+
 ![image](https://github.com/user-attachments/assets/f9e28b29-02a6-45ed-b1f0-ca2a39816f7e)
 
 
@@ -59,6 +65,7 @@ We Setup Bastion with Static IP To interact with the VM's through SSH
 
 
 
-**Let's Ping VM2 from VM1 to test**
+## Let's Ping VM2 from VM1 to test
+
 ![image](https://github.com/user-attachments/assets/8ce204bf-8507-484d-9ff3-d23dd395852c)
 
