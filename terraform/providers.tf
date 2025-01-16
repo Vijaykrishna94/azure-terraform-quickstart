@@ -4,22 +4,19 @@
 # ~> any version of 3
 terraform {
   required_providers {
-    azurerm ={
-        source = "hashicorp/azurerm"
-        version = "~>3.0"
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~>3.0"
     }
-    random ={
-    source = "hashicorp/random"
-    version="~>3.0"
-    } 
+    random = {
+      source  = "hashicorp/random"
+      version = "~>3.0"
+    }
   }
 }
 
 # We want to connect to Azure
-# 
 provider "azurerm" {
-    features {
-      
-    }
-  
+  features {}
+
 }
