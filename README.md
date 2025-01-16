@@ -14,7 +14,8 @@ To Make this interesting A random pet name is generated and assigned as prefix
 
 Creating Resource Group
 
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/394c03ea-6d6e-405c-a0b6-1c6caf5bd481)
+
 
 
 
@@ -43,7 +44,7 @@ Configuring Network Interface cards with Dynamic IP - To connect to VM's the Vir
 
 ![image](https://github.com/user-attachments/assets/5698f934-f8f5-4a02-962d-752c5c64aa49)
 
-In this step we also create NSG  - To Regulate the traffic and restric the internet Access to VM's
+In this step we also create NSG's - To Regulate the traffic and restric the internet Access to VM's
 
 We Setup Bastion with Static IP To interact with the VM's through SSH
 
@@ -51,11 +52,13 @@ We Setup Bastion with Static IP To interact with the VM's through SSH
 
 
 ### Topology
+![image](https://github.com/user-attachments/assets/f9e28b29-02a6-45ed-b1f0-ca2a39816f7e)
 
-![alt text](image-6.png)
+
 
 
 
 
 **Let's Ping VM2 from VM1 to test**
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/8ce204bf-8507-484d-9ff3-d23dd395852c)
+
